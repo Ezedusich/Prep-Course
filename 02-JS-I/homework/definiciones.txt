@@ -4,6 +4,6 @@ celular seria una variable, ya que almacena datos para luego usarlos.
 
 Strings: Las strings pueden ser palabras, letras o numeros, siempre y cuando esten entre "comillas".
 
-Funciones (argumentos, 'return'): 
+Funciones (argumentos, 'return'):
 Declaraciones 'if' 
 Valores Booleanos ('true', 'false')
