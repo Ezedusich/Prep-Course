@@ -1,0 +1,9 @@
+Variables: Una variable es una forma de almacenar algo para luego utilizarlo, por ejemplo una playstation 
+es una variable, almacena juegos para despues utilizarlos, u otro ejemplo no muy alejado, un telefono 
+celular seria una variable, ya que almacena datos para luego usarlos.
+
+Strings: Las strings pueden ser palabras, letras o numeros, siempre y cuando esten entre "comillas".
+
+Funciones (argumentos, 'return'): 
+Declaraciones 'if' 
+Valores Booleanos ('true', 'false')
