@@ -99,10 +99,7 @@ function esImpar(num) {
 }
 
 function elevarAlCuadrado(num) {
-  if(num%2 !== 0) {
-    return true;
-  }
-  return false;
+  return Math.pow(num, 2)
 }
 
 function elevarAlCubo(num) {
@@ -119,24 +116,24 @@ function redondearNumero(num) {
 }
 
 function redondearHaciaArriba(num) {
-  // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
-  // Tu código:
-  
+  return Math.ceil(num)
 }
 
-function numeroRandom() {
-  //Generar un número al azar entre 0 y 1 y devolverlo
-  //Pista: investigá qué hace el método Math.random()
-  
+
+function numeroRandom(num) {
+  return Math.random(num)
 }
 
 function esPositivo(numero) {
-  //La función va a recibir un entero. Devuelve como resultado una cadena de texto que indica si el número es positivo o negativo. 
-  //Si el número es positivo, devolver ---> "Es positivo"
-  //Si el número es negativo, devolver ---> "Es negativo"
-  //Si el número es 0, devuelve false
-  
+  if (numero > 0){
+    return "es positivo"
+  }
+  else if (numero < 0){
+    return "es negativo"
+  }
+  return false
 }
+
 
 function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
@@ -235,4 +232,4 @@ module.exports = {
   areaDelTriangulo,
   deEuroAdolar,
   esVocal,
-};
+}
