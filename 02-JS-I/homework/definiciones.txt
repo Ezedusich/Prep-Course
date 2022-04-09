@@ -4,6 +4,23 @@ celular seria una variable, ya que almacena datos para luego usarlos.
 
 Strings: Las strings pueden ser palabras, letras o numeros, siempre y cuando esten entre "comillas".
 
-Funciones (argumentos, 'return'):
-Declaraciones 'if' 
-Valores Booleanos ('true', 'false')
+Funciones (argumentos, 'return'): Siguiendo el ejemplo de los dispositivos moviles o consolas de video
+juegos, supongamos que tenemos en nuestra mano un control de PlayStation, este control en este caso seria
+una funcion, a esta funcion la llamaremos controlPS5, lo que sigue en este caso es darle un uso para que
+esta funcion sirva para algo, en los argumentos podremos especificar con mas detalles sus usos, supongamos
+que uno de estos usos, se llama boton X, hasta aqui tenemos la funcion y el argumento que seria "boton X", 
+¿pero que lo que esperamos de este boton X? claramente esperamos, que tenga un efecto puntual, en este 
+caso seria levantar un muro (si chicos, ejemplificamos con fort nite), bueno, ahi tenemos la funcion 
+completa, tenemos la funcion que vendria a ser el controlPS5, luego el argumento que seria boton X y por 
+ultimo nuestro retorno que seria el efecto en el juego, levantando un muro.
+
+Declaraciones 'if': Declaraciones, es una afirmacion que regresa un resultado entre dos opciones, por
+ejemplo, ¿te gusta dragon ball z? si >>> cool! // en cambio si fuera en lugar de un si un
+NO >>> Que mala onda!  
+Nota: siempre que una declaracion interviene, corta la reaccion de una funcion para retornar lo
+programado.
+
+Valores Booleanos ('true', 'false'): Son aquellos que sentencian una verdad, por ejemplo 
+yo ezequiel tengo 15 años >>> 'falso'
+yo Ezequiel tengo 35 años >>> 'verdadero'
+Ambas respuestas, corresponden a este conocido valor como valores booleanos, esta reafirmando una verdad! 
