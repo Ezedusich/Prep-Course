@@ -63,7 +63,17 @@ return "Color not found"
 }
 }
 
-function esDiezOCinco(numero) {}
+function esDiezOCinco(numero) {
+  switch(numero) {
+    case 5:
+      return true;
+      case 10:
+        return true;
+        default:
+          return false;
+  }
+}
+
   
 
 function estaEnRango(numero) {
