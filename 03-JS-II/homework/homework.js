@@ -77,19 +77,11 @@ function esDiezOCinco(numero) {
   
 
 function estaEnRango(numero) {
-  // Devuelve "true" si "numero" es menor que 50 y mayor que 20
-  // De lo contrario, devuelve "false"
-  // Tu código:
+  return numero < 50 && numero > 20;
 }
 
 function esEntero(numero) {
-  // Devuelve "true" si "numero" es un entero (int/integer)
-  // Ejemplo: 0.8 -> false
-  // Ejemplo: 1 -> true
-  // Ejemplo: -10 -> true
-  // De lo contrario, devuelve "false"
-  // Pista: Puedes resolver esto usando `Math.floor`
-  // Tu código:
+  return Math.floor(numero)===(numero);
 }
 
 function fizzBuzz(numero) {
@@ -117,10 +109,11 @@ function esPrimo(numero) {
 }
 
 function esVerdadero(valor){
-  //Escribe una función que reciba un valor booleano y retorne “Soy verdadero” 
-  //si su valor es true y “Soy falso” si su valor es false.
-  //Escribe tu código aquí
-
+  if (valor){
+    return "Soy verdadero";
+}else{
+    return "Soy falso";
+}
 }
 
 function tablaDelSeis(){
