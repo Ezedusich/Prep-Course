@@ -116,7 +116,7 @@ function esPrimo(numero) {
 }
 
 function esVerdadero(valor){
-  if (valor){
+  if (valor == true){
     return "Soy verdadero";
 }else{
     return "Soy falso";
@@ -124,11 +124,15 @@ function esVerdadero(valor){
 }
 
 function tablaDelSeis(){
-  //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
-  //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
-  //Escribe tu código aquí   
+  for(var j=0; j<61; j++){
+    if(j%6 ===0){ 
+ console.log(j);
+   }
+   }
+   return;
+ }
+     
   
-}
 
 function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
