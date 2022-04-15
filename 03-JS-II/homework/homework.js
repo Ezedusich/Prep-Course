@@ -119,9 +119,9 @@ function esPrimo(numero) {
     return false;
   }
 for(var i = 2; i < numero; i++){
-  if(numero / i === 0){
-    return false;
-  }
+if(numero % i === 0){
+return false;
+}
 }
 return true;
 }
@@ -135,13 +135,13 @@ function esVerdadero(valor){
 }
 
 function tablaDelSeis(){
-  for(var j=0; j<61; j++){
-    if(j%6 ===0){ 
- console.log(j);
-   }
-   }
-   return;
- }
+  var resultado2 =[];
+  for(var i = 0; i < 11; i++){
+    var resultado = 6 * i;
+  resultado2.push(resultado)
+  }
+  return resultado2;
+  }
      
   
 
