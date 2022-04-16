@@ -1,0 +1,24 @@
+Definiciones:
+
+FOR: es un bucle que consta de tres partes, la primera es una variable que va a llevar la cuenta 
+de nuestras repeticiones o vueltas, usualmente esta variable i, pero se puede asignar otra.
+la segunda parte es una condicion, en este caso el objetivo de esta condicion es hacer que el codigo se 
+ejecute hasta cumplir la condicion de frenado.
+y por ultimo tenemos la variable que indica el incremento de nuestra variable inicial.
+
+&& (AND): Se trata de un operador logico que actua de forma totalmente estricta, este operador retornara 
+true (verdadero) si las dos expesiones son true, si una de ellas es false, retornara false. 
+(EJ:  (expressionA) 1 > 2 && 1 < 3 = false) el operador analiza ambas expresiones, la de su izquiera y 
+la de su derecha, en este caso  como la expresion 1 > 2 (uno mayor que dos) es false, el operador &&
+retornara false por mas que la siguiente expresion sea true. para retornar True deben amabas expresiones 
+ser true, en caso de false, solo bastara con que una lo sea.
+
+||(OR): Es otro operador logico, opera similar a &&, solo que en este caso, el operador OR evaluara si
+las expresiones hasta encontrar 1 sola que sea true para retornar true, para retornar false, debera evaluar
+expresiones y que ambas sean false. 
+
+! (NOT): Este operador evalua la expresion asignada y retorna un valor booleano contrario, ya que actua
+como negacion, es decir que niega la expresion asignada. Por ejemplo si tenemos (1 != 1) en este caso 
+tendremos una respuesta de false, ya que le estamos preguntando a la terminal/consola si 1 = 1, ya que la 
+respuesta original es TRUE, el ! (not) entra en funcion negando, diciendo 1 no es igual 1 y la terminal o
+consola va a decir "no para che, 1 es igual 1 asi que lo que me estas pregunando es false.
