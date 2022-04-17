@@ -1,10 +1,8 @@
 // No cambies los nombres de las funciones.
 
 function devolverPrimerElemento(array) {
-  // Devuelve el primer elemento de un  array (pasado por parametro)
-  // Tu código:
+  devolverPrimerElemento.shift();
 }
-
 
 function devolverUltimoElemento(array) {
   // Devuelve el último elemento de un array
