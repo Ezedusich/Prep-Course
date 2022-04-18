@@ -1,18 +1,16 @@
 // No cambies los nombres de las funciones.
 
 function devolverPrimerElemento(array) {
-  devolverPrimerElemento.shift();
+  return array[0];
 }
 
 function devolverUltimoElemento(array) {
-  // Devuelve el último elemento de un array
-  // Tu código:
+  return array.length - 1
 }
 
 
 function obtenerLargoDelArray(array) {
-  // Devuelve el largo de un array
-  // Tu código:
+  array.length
 }
 
 
@@ -77,9 +75,9 @@ function numeroMasGrande(numeros) {
 
 
 function multiplicarArgumentos() {
-  // Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto
-  // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
-  // Escribe tu código aquí:
+// Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto
+// Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
+// Escribe tu código aquí:
 }
 
 
