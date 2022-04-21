@@ -1,31 +1,31 @@
 // No cambies los nombres de las funciones.
 
 function devolverPrimerElemento(array) {
-  return array[0];
+  return array[0]
 }
 
 function devolverUltimoElemento(array) {
-  return array.length - 1
+  return array[array.length-1];
 }
 
 
 function obtenerLargoDelArray(array) {
-  array.length
+  return array.length;
 }
 
 
 function incrementarPorUno(array) {
-  // "array" debe ser una matriz de enteros (int/integers)
-  // Aumenta cada entero por 1
-  // y devuelve el array
-  // Tu código:
+  var arrayB = []
+  for(var i=0; i < array.length; i++){
+    arrayB[i] = array [i] + 1
+  }
+  return arrayB
 }
 
 
 function agregarItemAlFinalDelArray(array, elemento) {
-  // Añade el "elemento" al final del array
-  // y devuelve el array
-  // Tu código:
+  agregarItemAlFinalDelArray.Push("elemento");
+  return array;
 }
 
 
@@ -93,8 +93,9 @@ function diaDeLaSemana(numeroDeDia) {
   //Realiza una función que dado el número del día de la semana, retorne: Es fin de semana
   //si el día corresponde a Sábado o Domingo y “Es dia Laboral” en caso contrario. 
   //Escribe tu código aquí   
-  
-} 
+  if(numeroDeDia = 1 || 7);
+  }
+
 
 
 function empiezaConNueve(n) {
