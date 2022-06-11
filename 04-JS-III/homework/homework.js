@@ -198,7 +198,21 @@ function breakStatement(numero) {
   //devolver: "Se interrumpió la ejecución"
   //Pista: usá el statement 'break'
   // Tu código:
+  var arrayAA3=[];
+  for (var i = 1; i < 11; i++){
+    numero = numero + 2;
+    if(numero === i){
+      break;
+    }else{arrayAA3.push(numero);}
+  }
+if(i < 10){
+  return "Se interrumpió la ejecución"
+}else{
+  return arrayAA3;
 }
+}
+  
+
 
 
 
