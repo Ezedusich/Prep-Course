@@ -201,7 +201,7 @@ function breakStatement(numero) {
   var arrayA3 = [];
 for(let i=0; i = 10; i++){
   if(
-    arrayA3[i] === 20){
+    arrayA3[i] == 20){
       arrayA3.push(numero[i]);
     
     return arrayA3
