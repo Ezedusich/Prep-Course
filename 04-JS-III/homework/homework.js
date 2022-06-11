@@ -223,15 +223,16 @@ function continueStatement(numero) {
   //Cuando el número de iteraciones alcance el valor 5, no se suma en ese caso y se continua con la siguiente iteración
   //Pista: usá el statement 'continue'
   // Tu código:
-  var arrayAA3=[];
-  for (var i = 1; i < 6; i++){
-    numero = numero + 2;
-    if(numero === i){
+  var arrayAB=[];
+  for(var i = 0; i<10; i++){
+    if(i===5){
       continue;
     }else{
-      arrayAA3.push(numero);}
+      numero = numero + 2;
+      arrayAB.push(numero);
+    }
   }
-  return arrayAA3;
+  return arrayAB;
 }
 
 
