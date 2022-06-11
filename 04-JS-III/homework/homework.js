@@ -198,19 +198,6 @@ function breakStatement(numero) {
   //devolver: "Se interrumpió la ejecución"
   //Pista: usá el statement 'break'
   // Tu código:
-  var arrayA3 = [];
-for(let i=0; i = 10; i++){
-  if(
-    arrayA3[i] == 20){
-      arrayA3.push(numero[i]);
-    
-    return arrayA3
-    }
-    if(arrayA3 == [i])
-    break;
-    i++;
-  }
-  return "Se interrumpío la ejecución"
 }
 
 
