@@ -1,0 +1,4 @@
+array: El array es una funcion predeterminada que te permitira almacenar datos dentro de ella.
+Por ejemplo, supongamos que tenemos varias cajas con juegos, cada caja almacena distintos generos de 
+juegos, accion, carreras, terror, etc. Pero ahora tomas una caja extra y pones todos tus juegos preferidos.
+las cajas representan el array y los juegos representan los datos.
