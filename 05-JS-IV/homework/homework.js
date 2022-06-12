@@ -6,6 +6,14 @@ function crearGato(nombre, edad) {
   // Agrega un método (funcion) llamado "meow" que devuelva el string "Meow!"
   // Devuelve el objeto
   // Tu código:
+  const creargato={
+    nombre: "garfield",
+    edad: "6",
+    meow: function(){
+      console.log(this.nombre + edad +"Meow!" )
+    }
+  }
+  return creargatp.meow
 }
 
 
