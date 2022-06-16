@@ -1,0 +1,25 @@
+Objetos: Los objetos son contenedores de datos, a diferencia de las matrices, los objetos almacenan 
+mucha informacion sobre una misma cosa. Por ejemplo, una caja representa al objeto, y el contenido de
+esta misma seria la informacion almacenada sobre una misma cosa, supongamos que esta caja contiene 
+frutas de distintos tipos, peras, manzanas, bananas, etc. Asi mismo estos objetos (frutas) pueden contener 
+mas informacion, como la fecha en que fue cosechada, tiempo de maduracion, lugar de origen, etc. De esta 
+misma forma actuan los objetos en un bloque de codigos, donde se puede acceder a toda la informacion 
+almacenada en el objeto.
+
+Propiedades: En un bloque de codigo la propiedad hace referencia a un dato especifico que buscamos, por
+ejemplo usando el ejemplo anterior con la caja de frutas, para acceder a la informacion de la caja
+deberiamos ordenar a la terminal con el comando especifico caja.frutas y esto nos dara acceso a todo el 
+contenido de la caja.
+
+Metodos: Dentro de los objetos podemos declarar funciones, siguiendo el ejemplo anterior, supongamos que
+nuestra caja de frutas es obsoleta, ya que no mantiene las frutas en buen estado, y por ello buscamos la
+forma de declarar una funcion que las mantenga frias dentro de la caja con una funcion llamada bajar 
+temperatura, a esta funcion dentro de nuestro objeto se la llama "metodo".
+
+FOR IN: El bucle for(in...) es una herramienta que nos permitira recorrer sobre cada par clave-valor,
+dentro de nuestro objeto, iterando sobre todos los datos. El bucle terminara su recorrido hasta que no
+encuentre mas sobre lo que iterar.
+
+notacion de puntos y corchetes: La notacion de puntos nos sirve para cuando no dan los valores preestableci
+dos con la informacion necesaria para ejecutar el bloque de codigo deseado, a diferencia de la notacion de 
+corchetes que lo que hace es brindar la informacion cuando no sabemos que hay dentro de lo que buscamos.
