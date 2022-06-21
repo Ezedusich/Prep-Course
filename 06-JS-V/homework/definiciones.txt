@@ -1,0 +1,10 @@
+prototype: Los prototipos son un mecanismo mediante el cual los objetos
+ heredan características entre sí. Como por ejemplo un hijo/a hereda los objetos
+ marrones de madre/padre.
+
+
+Constructors (de Clases): Este nos permite clasificar nuestros objetos, pero ademas nos permite acceder 
+a muchas otras funcionalidades que con un objeto comun no podiamos. Un constructor de clases nos 
+permitira crear una una clase //ej: GTA V y dentro de esta clase existen los Usuarios, estos objetos 
+comparten algunos metodos y propiedades, y el constructor de clases nos permite almacenarlos dentro 
+de un solo objetos y expandirlo de ser necesario.
