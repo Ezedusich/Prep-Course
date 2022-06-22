@@ -1,0 +1,5 @@
+CallBacks: Supongamos que en un video juego necesitamos automatizar varios movimientos del
+mouse e incluso sus click, actualmente existen "las macros" que estas te permiten grabar 
+movimientos que te permitiran automatizar mas de un movimiento.
+por ejemplo deseamos que el personaje despliegue acceda a su mochila y dentro de ella al botiquin,
+este boton se lo podria denominar como la funcion que llama a su otra funcion (mochila).
